@@ -23,7 +23,7 @@ namespace CVEDashboard.Controllers
             }
 
             ViewBag.returnName = name;
-            return View((object)name);
+            return View();
         }
 
     }
